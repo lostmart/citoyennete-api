@@ -16,6 +16,16 @@ build/
 .env.test.local
 .env.production.local
 
+# Supabase
+.branches
+.temp
+supabase/.branches
+supabase/.temp
+
+# Database dumps (if you generate any)
+*.sql.backup
+*.dump
+
 # IDEs and editors
 .vscode/
 .idea/
