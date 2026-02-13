@@ -7,7 +7,7 @@
 		"doc": "docs"
 	},
 	"scripts": {
-		"dev": "nodemon --exec 'ts-node -r dotenv/config' src/main.ts",
+		"dev": "nodemon --exec \"npx ts-node -r dotenv/config\" src/main.ts",
 		"build": "tsc",
 		"start": "node -r dotenv/config dist/main.js",
 		"lint": "eslint . --ext .ts"

@@ -5,6 +5,6 @@ import questionsRouter from "./questions"
 const router = Router()
 
 router.use("/health", healthRouter)
-//router.use("/questions", questionsRouter)
+router.use("/questions", questionsRouter)
 
 export = router
